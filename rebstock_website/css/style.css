@@ -33,14 +33,20 @@ p, ul, li {
   font-size: .75em;
 }
 
-p.rtl {
-    direction: rtl;
-}
+p.bolder
+  {font-weight: 800;}
 
 a {
   font-family: 'Nunito', Arial, sans-serif;
   font-size: 1em;
   color: #00000;
+}
+
+.description {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 1em;
+  color: #00000;
+  padding-top: .25em;
 }
 
 header {
@@ -69,7 +75,6 @@ figcaption {
 
 img {
   max-width: 75%;
-  height: auto;
 }
 
 #creativecommons {
@@ -109,9 +114,9 @@ img {
     width:400px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
-    top: 16em; /* Stay at the top */
+    top: 17em; /* Stay at the top */
     right: 0;
-    background-color: #FCFCED; /* Black */
+    background-color: #C7C7CE; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
 }
 
@@ -138,6 +143,15 @@ img {
   flex-wrap: wrap;
   background-color: transparent;
   padding-right: 10em;
+}
+
+.flex-cont-imagepage {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: transparent;
+  padding-right: 10em;
+  padding-left: 10em;
 }
 
 .pixelthumb {
@@ -239,6 +253,7 @@ img {
     margin-right: auto;
     padding-top: 1em;
     padding-bottom: 0;
+    width: 1.5%;
 }
 
 .card {
@@ -378,10 +393,6 @@ ul.breadcrumb li a:hover {
     align-items: stretch;
     background-color: transparent;
   }
-
-
-
-
 
   #left  {
     width: auto;
