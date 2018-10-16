@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600');
+@import url('https://fonts.googleapis.com/css?family=Nunito:600|Quattrocento');
+
+body {
+	background-color: #FFFFEE;
+	color: #000000;
+	font-family: Arial, sans-serif;	
+}
+title {
+  }
+
+h1  {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px
+  }
+
+h2  {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+  } 
+
+p, ul, li {
+	font-size: 14px;
+	font-family: 'Quattrocento', serif;
+  }
+
+a {	
+	color: #000000;	
+	font-family: 'Quattrocento', Arial, sans-serif;	
+	font-size: 14px}
+
+#slogan {
+	color: #35327F;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+  }
+
+#creativecommons {
+	text-align: center;
+  }
+
+#creativecommons {margin: 0 auto;
+display: block;
+}
+
+#creativecommonslink {margin: 0 auto;
+display: block;
+}
